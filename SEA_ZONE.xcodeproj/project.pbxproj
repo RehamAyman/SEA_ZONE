@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		CE76A577256BBB8400D9BD0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76A576256BBB8400D9BD0F /* AppDelegate.swift */; };
 		CE76A579256BBB8400D9BD0F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76A578256BBB8400D9BD0F /* SceneDelegate.swift */; };
-		CE76A57B256BBB8400D9BD0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76A57A256BBB8400D9BD0F /* ViewController.swift */; };
+		CE76A57B256BBB8400D9BD0F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76A57A256BBB8400D9BD0F /* WelcomeViewController.swift */; };
 		CE76A57E256BBB8400D9BD0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE76A57C256BBB8400D9BD0F /* Main.storyboard */; };
 		CE76A581256BBB8400D9BD0F /* SEA_ZONE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE76A57F256BBB8400D9BD0F /* SEA_ZONE.xcdatamodeld */; };
 		CE76A583256BBB8900D9BD0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE76A582256BBB8900D9BD0F /* Assets.xcassets */; };
 		CE76A586256BBB8900D9BD0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE76A584256BBB8900D9BD0F /* LaunchScreen.storyboard */; };
 		CE76A591256BBB8A00D9BD0F /* SEA_ZONETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76A590256BBB8A00D9BD0F /* SEA_ZONETests.swift */; };
 		CE76A59C256BBB8A00D9BD0F /* SEA_ZONEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE76A59B256BBB8A00D9BD0F /* SEA_ZONEUITests.swift */; };
+		CE76A5B8256BCE9700D9BD0F /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = CE76A5B7256BCE9600D9BD0F /* Fonts */; };
+		CEF5F766256C53B40051F58B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5F765256C53B40051F58B /* LoginViewController.swift */; };
+		CEF5F773256C638F0051F58B /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5F772256C638F0051F58B /* UIViewExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		CE76A573256BBB8400D9BD0F /* SEA_ZONE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEA_ZONE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE76A576256BBB8400D9BD0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE76A578256BBB8400D9BD0F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CE76A57A256BBB8400D9BD0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE76A57A256BBB8400D9BD0F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		CE76A57D256BBB8400D9BD0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE76A580256BBB8400D9BD0F /* SEA_ZONE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SEA_ZONE.xcdatamodel; sourceTree = "<group>"; };
 		CE76A582256BBB8900D9BD0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +54,9 @@
 		CE76A597256BBB8A00D9BD0F /* SEA_ZONEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEA_ZONEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE76A59B256BBB8A00D9BD0F /* SEA_ZONEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEA_ZONEUITests.swift; sourceTree = "<group>"; };
 		CE76A59D256BBB8A00D9BD0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE76A5B7256BCE9600D9BD0F /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		CEF5F765256C53B40051F58B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CEF5F772256C638F0051F58B /* UIViewExtention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +146,8 @@
 		CE76A5AD256BC3E900D9BD0F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				CE76A57A256BBB8400D9BD0F /* ViewController.swift */,
+				CE76A57A256BBB8400D9BD0F /* WelcomeViewController.swift */,
+				CEF5F765256C53B40051F58B /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,6 +170,8 @@
 		CE76A5B0256BC42400D9BD0F /* SupportingFiels */ = {
 			isa = PBXGroup;
 			children = (
+				CEF5F772256C638F0051F58B /* UIViewExtention.swift */,
+				CE76A5B7256BCE9600D9BD0F /* Fonts */,
 				CE76A584256BBB8900D9BD0F /* LaunchScreen.storyboard */,
 				CE76A576256BBB8400D9BD0F /* AppDelegate.swift */,
 				CE76A578256BBB8400D9BD0F /* SceneDelegate.swift */,
@@ -277,6 +286,7 @@
 				CE76A586256BBB8900D9BD0F /* LaunchScreen.storyboard in Resources */,
 				CE76A583256BBB8900D9BD0F /* Assets.xcassets in Resources */,
 				CE76A57E256BBB8400D9BD0F /* Main.storyboard in Resources */,
+				CE76A5B8256BCE9700D9BD0F /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +311,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE76A57B256BBB8400D9BD0F /* ViewController.swift in Sources */,
+				CE76A57B256BBB8400D9BD0F /* WelcomeViewController.swift in Sources */,
 				CE76A581256BBB8400D9BD0F /* SEA_ZONE.xcdatamodeld in Sources */,
 				CE76A577256BBB8400D9BD0F /* AppDelegate.swift in Sources */,
+				CEF5F773256C638F0051F58B /* UIViewExtention.swift in Sources */,
+				CEF5F766256C53B40051F58B /* LoginViewController.swift in Sources */,
 				CE76A579256BBB8400D9BD0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
